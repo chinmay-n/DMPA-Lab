@@ -24,7 +24,7 @@ if(x<k):
         print("Clusters should be less than number of tuples")
         exit(0)
 for i in range(x):
-        tr.append(input("Enter comma separated values for transaction T"+str(i)))
+        tr.append(input("Enter comma separated values for transaction T"+str(i))+": ")
         q=(tr[i].split(",",3))
         d=[]
         for item in q:
