@@ -25,7 +25,7 @@ if(x<k):
         exit(0)
 for i in range(x):
         tr.append(input("Enter comma separated values for transaction T"+str(i)))
-        q=(tr[i].split(",",3))
+        q=(tr[i].split(",",y))
         d=[]
         for item in q:
                 item=float(item)
@@ -73,7 +73,7 @@ while(leaders!=l):
         for i in range(k):
                 temp=clusters.get(i)
                 #print("Temporary="+str(temp))
-                l[i]=median(temp,k)
+                l[i]=median(temp,y)
                 #print(l)
 
 print(str(leaders))
